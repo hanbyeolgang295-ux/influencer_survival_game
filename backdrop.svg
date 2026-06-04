@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Broadcast studio backdrop">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f2df"/>
+      <stop offset="0.45" stop-color="#d7eee8"/>
+      <stop offset="1" stop-color="#ffe0c9"/>
+    </linearGradient>
+    <linearGradient id="screenA" x1="0" x2="1">
+      <stop offset="0" stop-color="#2a9d8f"/>
+      <stop offset="1" stop-color="#6a4c93"/>
+    </linearGradient>
+    <linearGradient id="screenB" x1="0" x2="1">
+      <stop offset="0" stop-color="#e4572e"/>
+      <stop offset="1" stop-color="#f3b43f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <path d="M0 760 L1600 620 L1600 1000 L0 1000 Z" fill="#221f1b" opacity="0.08"/>
+  <path d="M0 120 H1600" stroke="#171614" stroke-opacity="0.08" stroke-width="3"/>
+  <path d="M0 290 H1600" stroke="#171614" stroke-opacity="0.06" stroke-width="2"/>
+  <path d="M0 460 H1600" stroke="#171614" stroke-opacity="0.06" stroke-width="2"/>
+
+  <g opacity="0.92">
+    <rect x="120" y="170" width="430" height="245" rx="22" fill="#171614"/>
+    <rect x="145" y="195" width="380" height="170" rx="12" fill="url(#screenA)"/>
+    <rect x="195" y="235" width="190" height="18" rx="9" fill="#fbfbf7" opacity="0.82"/>
+    <rect x="195" y="272" width="255" height="18" rx="9" fill="#fbfbf7" opacity="0.42"/>
+    <rect x="195" y="309" width="140" height="18" rx="9" fill="#fbfbf7" opacity="0.58"/>
+    <rect x="260" y="386" width="145" height="18" rx="9" fill="#171614" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="1030" y="130" width="405" height="250" rx="22" fill="#171614"/>
+    <rect x="1055" y="155" width="355" height="178" rx="12" fill="url(#screenB)"/>
+    <path d="M1098 292 L1146 215 L1192 265 L1238 199 L1345 292 Z" fill="#fbfbf7" opacity="0.45"/>
+    <rect x="1110" y="353" width="250" height="20" rx="10" fill="#171614" opacity="0.28"/>
+  </g>
+
+  <g fill="none" stroke="#171614" stroke-width="16" stroke-linecap="round" opacity="0.18">
+    <path d="M615 720 L700 480 L815 720"/>
+    <path d="M690 520 H790"/>
+    <path d="M915 720 L915 475"/>
+    <path d="M885 475 H1010"/>
+  </g>
+
+  <g opacity="0.65">
+    <rect x="640" y="250" width="305" height="135" rx="18" fill="#fbfbf7"/>
+    <path d="M690 385 L655 440 L755 385 Z" fill="#fbfbf7"/>
+    <rect x="680" y="286" width="220" height="18" rx="9" fill="#2a9d8f"/>
+    <rect x="680" y="322" width="165" height="18" rx="9" fill="#e4572e"/>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="190" y="680" width="275" height="80" rx="16" fill="#171614"/>
+    <circle cx="230" cy="720" r="20" fill="#f3b43f"/>
+    <rect x="265" y="704" width="150" height="13" rx="7" fill="#fbfbf7" opacity="0.82"/>
+    <rect x="265" y="730" width="105" height="13" rx="7" fill="#fbfbf7" opacity="0.44"/>
+
+    <rect x="1110" y="650" width="310" height="86" rx="16" fill="#171614"/>
+    <circle cx="1154" cy="693" r="21" fill="#2a9d8f"/>
+    <rect x="1192" y="676" width="165" height="13" rx="7" fill="#fbfbf7" opacity="0.82"/>
+    <rect x="1192" y="704" width="120" height="13" rx="7" fill="#fbfbf7" opacity="0.44"/>
+  </g>
+
+  <g opacity="0.2" stroke="#171614" stroke-width="10" stroke-linecap="round">
+    <path d="M90 850 H1510"/>
+    <path d="M240 850 L190 970"/>
+    <path d="M1360 850 L1410 970"/>
+    <path d="M800 835 L800 970"/>
+  </g>
+</svg>
